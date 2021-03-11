@@ -1,6 +1,6 @@
 # siep
 
-implementation of statte-of-the-arts subgraph matching algorithms (including BoostISO)
+implementation of state-of-the-arts subgraph matching algorithms (including BoostISO)
 
 ---
 

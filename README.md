@@ -4,6 +4,12 @@ implementation of state-of-the-art subgraph matching algorithms (including Boost
 
 ---
 
+# Papers
+
+Li Zeng, Yan Jiang, Weixin Lu, Lei Zou. [Deep Analysis on Subgraph Isomorphism](https://arxiv.org/abs/2012.06802). arXiv 2020.
+
+---
+
 # Algorithms
 
 Seven subgraph matching algorithms: QuickSI, GraphQL, TurboISO, CFL-Match, VF3, CECI, DAF.

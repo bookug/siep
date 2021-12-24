@@ -1,0 +1,78 @@
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h:19: warning: no uniquely matching class member found for 
+  IMemoryManager::Allocate
+Possible candidates:
+  virtual int32_t IMemoryManager::Allocate(size_t size, uint32_t memoryId, bool isSnapshot, void **object)=0' at line 31 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h
+  virtual int32_t IMemoryManager::Allocate(size_t size, uint32_t memoryId, bool isSnapshot, void **object)=0' at line 27 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h:34: warning: no uniquely matching class member found for 
+  IMemoryManager::Load
+Possible candidates:
+  virtual int32_t IMemoryManager::Load(vector< void * > *data, uint32_t memoryId, bool isSnapshot)=0' at line 43 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h
+  virtual int32_t IMemoryManager::Load(vector< void * > *data, uint32_t memoryId, bool isSnapshot)=0' at line 39 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h:46: warning: no matching class member found for 
+  IMemoryManager::DumpMemory
+Possible candidates:
+  virtual int32_t IMemoryManager::DumpMemory(uint32_t memoryId, bool isSnapshot, string filename)=0
+  virtual int32_t IMemoryManager::DumpMemory(uint32_t memoryId, bool isSnapshot, string filename)=0
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h:59: warning: no uniquely matching class member found for 
+  IMemoryManager::Persist
+Possible candidates:
+  virtual int32_t IMemoryManager::Persist(void *object, size_t size, uint32_t memoryId)=0' at line 78 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h
+  virtual int32_t IMemoryManager::Persist(void *object, size_t size, uint32_t memoryId)=0' at line 60 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h:19: warning: no uniquely matching class member found for 
+  IMemoryManager::Allocate
+Possible candidates:
+  virtual int32_t IMemoryManager::Allocate(size_t size, uint32_t memoryId, bool isSnapshot, void **object)=0' at line 31 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h
+  virtual int32_t IMemoryManager::Allocate(size_t size, uint32_t memoryId, bool isSnapshot, void **object)=0' at line 27 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h:30: warning: no uniquely matching class member found for 
+  IMemoryManager::Load
+Possible candidates:
+  virtual int32_t IMemoryManager::Load(vector< void * > *data, uint32_t memoryId, bool isSnapshot)=0' at line 43 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h
+  virtual int32_t IMemoryManager::Load(vector< void * > *data, uint32_t memoryId, bool isSnapshot)=0' at line 39 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h:42: warning: no matching class member found for 
+  IMemoryManager::DumpMemory
+Possible candidates:
+  virtual int32_t IMemoryManager::DumpMemory(uint32_t memoryId, bool isSnapshot, string filename)=0
+  virtual int32_t IMemoryManager::DumpMemory(uint32_t memoryId, bool isSnapshot, string filename)=0
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h:53: warning: no uniquely matching class member found for 
+  IMemoryManager::Persist
+Possible candidates:
+  virtual int32_t IMemoryManager::Persist(void *object, size_t size, uint32_t memoryId)=0' at line 78 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/IMemoryManager.h
+  virtual int32_t IMemoryManager::Persist(void *object, size_t size, uint32_t memoryId)=0' at line 60 of file /Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpmem/include/IMemoryManager.h
+
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/GPMNetworkManager.h:62: warning: Found unknown command `\detail'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/GPMMessageStream.h:60: warning: argument 'GPMPacket' of command @param is not found in the argument list of GPMMessageStream::QueueGPMPacket(GPMMessage *packet)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/GPMMessageStream.h:60: warning: The following parameters of GPMMessageStream::QueueGPMPacket(GPMMessage *packet) are not documented:
+  parameter 'packet'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/GPMNetworkManager.h:62: warning: Found unknown command `\detail'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwp/include/GPMNetworkManager.h:61: warning: argument 'timeout' of command @param is not found in the argument list of GPMNetworkManager::BeginCommunication()
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwplog/include/Logger.h:43: warning: argument 'priority' of command @param is not found in the argument list of Logger::SetPriority(t_log_priority priorityLevel)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwplog/include/Logger.h:43: warning: The following parameters of Logger::SetPriority(t_log_priority priorityLevel) are not documented:
+  parameter 'priorityLevel'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetPacketStream.h:127: warning: argument 'uint16_t' of command @param is not found in the argument list of NetPacketStream::AddMissedPacketSeqNum(uint16_t seqNum)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetPacketStream.h:127: warning: The following parameters of NetPacketStream::AddMissedPacketSeqNum(uint16_t seqNum) are not documented:
+  parameter 'seqNum'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetPacketStream.h:158: warning: argument 'uint16_t' of command @param is not found in the argument list of NetPacketStream::GetMissingPacketIdAt(uint16_t pos)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetPacketStream.h:158: warning: The following parameters of NetPacketStream::GetMissingPacketIdAt(uint16_t pos) are not documented:
+  parameter 'pos'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetPacketStream.h:149: warning: argument 'uint16_t' of command @param is not found in the argument list of NetPacketStream::IsMissingPacket(uint16_t seqNum)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetPacketStream.h:149: warning: The following parameters of NetPacketStream::IsMissingPacket(uint16_t seqNum) are not documented:
+  parameter 'seqNum'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:41: warning: argument 'The' of command @param is not found in the argument list of NetworkPosition::SetLocalApplication(uint16_t localApplication)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:41: warning: The following parameters of NetworkPosition::SetLocalApplication(uint16_t localApplication) are not documented:
+  parameter 'localApplication'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:53: warning: argument 'The' of command @param is not found in the argument list of NetworkPosition::SetLocalhost(const char *localhost)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:53: warning: The following parameters of NetworkPosition::SetLocalhost(const char *localhost) are not documented:
+  parameter 'localhost'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:65: warning: argument 'The' of command @param is not found in the argument list of NetworkPosition::SetRemoteApplication(uint16_t remoteApplication)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:65: warning: The following parameters of NetworkPosition::SetRemoteApplication(uint16_t remoteApplication) are not documented:
+  parameter 'remoteApplication'
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:77: warning: argument 'The' of command @param is not found in the argument list of NetworkPosition::SetRemoteHost(const char *remoteHost)
+/Users/vcarletti/work/aitech/software/gatelab/persistence/trunk/libgwpnet/include/NetworkPosition.h:77: warning: The following parameters of NetworkPosition::SetRemoteHost(const char *remoteHost) are not documented:
+  parameter 'remoteHost'

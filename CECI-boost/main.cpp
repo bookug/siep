@@ -1,10 +1,3 @@
-/*=============================================================================
-# Filename: main.cpp
-# Author: bookug 
-# Mail: bookug@qq.com
-# Last Modified: 2019-11-12 19:30
-# Description: Implementation of boosted CECI algorithm
-=============================================================================*/
 
 #include "hyper.h"
 
@@ -363,7 +356,7 @@ int ChooseStartQVertex(Query *q, HyperGraph *g)
 			int v = g->labelList[label][j];
 			int Size2 = q->graList[u[i]].size();
 			bool Flag = true;
-			for(int k = 0; k < Size2; k ++) //¶ÔuµÄÁÚ¾ÓµÄÃ¿¸ölabel
+			for(int k = 0; k < Size2; k ++) //ï¿½ï¿½uï¿½ï¿½ï¿½Ú¾Óµï¿½Ã¿ï¿½ï¿½label
 			{
 				int Label = q->graList[u[i]][k].label;
 				int curN = q->graList[u[i]][k].vlist.size();

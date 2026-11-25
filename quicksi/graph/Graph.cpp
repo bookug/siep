@@ -1,9 +1,6 @@
 #include "Graph.h"
 using namespace std;
 
-
-
-
 Vertex::Vertex(int _vlabel)
 {
 	vlabel=_vlabel;

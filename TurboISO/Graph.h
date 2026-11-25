@@ -1,10 +1,3 @@
-/*=============================================================================
-# Filename: Graph.h
-# Author: Bookug Lobert 
-# Mail: 1181955272@qq.com
-# Last Modified: 2016-10-24 23:00
-# Description: 
-=============================================================================*/
 
 #ifndef _GRAPH_DGRAPH_H
 #define _GRAPH_DGRAPH_H

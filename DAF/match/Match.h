@@ -1,10 +1,3 @@
-/*=============================================================================
-# Filename:		Match.h
-# Author: bookug
-# Mail: bookug@qq.com
-# Last Modified:	2019-09-24 10:45
-# Description: find all subgraph-graph mappings between query graph and data graph
-=============================================================================*/
 
 #ifndef _MATCH_MATCH_H
 #define _MATCH_MATCH_H

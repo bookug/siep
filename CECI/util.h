@@ -1,7 +1,5 @@
 /*=============================================================================
 # Filename: util.h
-# Author: Bookug Lobert 
-# Mail: zengli-bookug@pku.edu.cn
 # Last Modified: 2018-03-11 16:31
 # Description: 
 The original code only deals with undirected graphs, each vertex has many labels.
@@ -354,7 +352,7 @@ public:
 	}
 };
 
-//Ò»¸ö½áµãÖ»ÓÐÒ»¸ölabel
+//Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½Ò»ï¿½ï¿½label
 class Query
 {
 public:

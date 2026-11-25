@@ -1,8 +1,3 @@
-/*=============================================================================
-# Filename: CPI.cpp
-# Author: Jiang Yan (Frozenlight)
-# Mail: 527507046@qq.com 
-=============================================================================*/
 // Peak memory consumption
 // Num of recursive calls
 // Match time cost
